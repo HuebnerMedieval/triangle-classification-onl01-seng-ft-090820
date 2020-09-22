@@ -7,10 +7,14 @@ class Triangle
   end
   
   def kind
-    
+    if @a != 0 && @a == @b && @b == @c
+      :equilateral
+    elsif 
   end
   
   class TriangleError < StandardError
+    
+    
     
   end
   
